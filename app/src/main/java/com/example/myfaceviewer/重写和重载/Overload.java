@@ -12,5 +12,12 @@ public class Overload {
         return 0 ;
     }
 
+    public int test1(String a,int b ){
+        return 1;
+    }
+
+    public int test1(String b , int c,String a){
+        return 0 ;
+    }
 
 }
